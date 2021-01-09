@@ -1,0 +1,2 @@
+# basic_python
+Basic_Python_Introduction1_Indonesia.ai
