@@ -1,5 +1,5 @@
-nama = input()
-umur = int(input())
-tinggi_badan = float(input())
+nama = input("Masukkan nama\t : ")
+umur = int(input("Masukkan umur\t:"))
+tinggi_badan = float(input("Masukkan tinggi badan\t:"))
 
-print ("Nama Saya " + nama + "," + " Umur saya " + str(umur) + " " + " tahun" + " " + " dan tinggi saya " +str(tinggi_badan) + "cm")
+print ("Nama Saya " , nama  + ",Umur saya " , umur , " tahun dan tinggi saya " , tinggi_badan , "cm")
