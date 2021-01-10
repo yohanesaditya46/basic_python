@@ -1,5 +1,5 @@
-ujian_teori = float(input("Masukkan nilai ujian teori\t: " ))
-ujian_praktek = float(input("Masukkan nilai ujian praktek\t: " ))
+ujian_teori = float(input("Masukkan nilai ujian teori\t: "))
+ujian_praktek = float(input("Masukkan nilai ujian praktek\t: "))
 
 if (ujian_teori >= 70) and (ujian_praktek >= 70):
     print ("Selamat, anda lulus!")
