@@ -8,6 +8,7 @@ while True:
     print("--Menu--")
     print (" 1.Daftar Kontak\n 2.Tambah Kontak\n 3.Keluar")
     pilihan = int(input("Masukkan Pilihan\t: "))
+    os.system ('cls')
 
     if pilihan == 2 :
         os.system('cls')
@@ -17,6 +18,8 @@ while True:
         telepon.append(telepon1)
         print ("Kontak berhasil ditambahkan")
         awal += 1
+        os.system('cls')
+        
     elif pilihan == 1 :
         os.system('cls')
         print("Daftar Kontak")
@@ -24,7 +27,8 @@ while True:
         for i in range (0,awal):
             print(str (i+1) + "."+ "Nama\t :" + str (nama[i]))
             print ("Nomor Telepon\t : " + str (telepon[i]))
-        
+            print("\n")
+      
     elif pilihan == 3:
         os.system('cls')
         print("Sampai Jumpa\n")
